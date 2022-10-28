@@ -1,0 +1,21 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #eeecec;
+}
+
+.app{
+    margin: auto;
+}
+
+.hidden{
+    display:none;
+}
+
+.hidden:active{
+    display:inline-block;
+}
