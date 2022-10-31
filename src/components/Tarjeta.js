@@ -21,8 +21,8 @@ const Tarjeta = (props) => {
             }}
                 src={props.el.imagen} />
                 <h5 style={{fontSize:"1.3rem", textAlign:"left", marginBottom:"10px"}}>u$d {props.el.precio}</h5>
-                <p className="hidden">{props.el.coutas}</p>
-                <p className="hidden">{props.el.descripcion}</p>
+                <p>{props.el.coutas}</p>
+                <p>{props.el.descripcion}</p>
         </a>
     )
 };

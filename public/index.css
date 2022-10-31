@@ -11,11 +11,3 @@ body{
 .app{
     margin: auto;
 }
-
-.hidden{
-    display:none;
-}
-
-.hidden:active{
-    display:inline-block;
-}
